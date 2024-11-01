@@ -570,8 +570,8 @@ We also need to install some dependencies for PHP for the instance to work corre
     
     cd /usr/
     curl -O http://www.xmailserver.org/libxdiff-0.23.tar.gz
+    tar -xvf libxdiff-0.23.tar.gz    
     cd libxdiff-0.23/
-    tar -xvf libxdiff-0.23.tar.gz
     ./configure
     make
     make install
